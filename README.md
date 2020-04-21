@@ -2,7 +2,7 @@
 30-Day LeetCoding Challenge
 
 ## Week 1: April 1st–April 7th
-###  [Single Number](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber.go) [test case](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber_test.go)
+###  [Single Number](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber_test.go)
 ```
 Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 Note:
