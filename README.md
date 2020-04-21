@@ -143,7 +143,6 @@ Note:
 The number of nodes in the given list will be between 1 and 100.
 ```
 
-## Week 2: Week 2: April 8th–April 14th
 ###  [Backspace String Compare](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-backspaceStringCompare.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-backspaceStringCompare_test.go)
 ```
 Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
@@ -170,4 +169,32 @@ Note:
 S and T only contain lowercase letters and '#' characters.
 Follow up:
 Can you solve it in O(N) time and O(1) space?
+```
+
+###  [Min Stack](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-minStack.go)
+```
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+push(x) -- Push element x onto stack.
+pop() -- Removes the element on top of the stack.
+top() -- Get the top element.
+getMin() -- Retrieve the minimum element in the stack.
+Example 1:
+Input
+["MinStack","push","push","push","getMin","pop","top","getMin"]
+[[],[-2],[0],[-3],[],[],[],[]]
+Output
+[null,null,null,null,-3,null,0,-2]
+Explanation
+MinStack minStack = new MinStack();
+minStack.push(-2);
+minStack.push(0);
+minStack.push(-3);
+minStack.getMin(); // return -3
+minStack.pop();
+minStack.top();    // return 0
+minStack.getMin(); // return -2
+Constraints:
+Methods pop, top and getMin operations will always be called on non-empty stacks.
+   Hide Hint #1  
+Consider each node in the stack having a minimum value. (Credits to @aakarshmadhavan)
 ```
