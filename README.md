@@ -15,7 +15,7 @@ Input: [4,1,2,1,2]
 Output: 4
 ```
 
-###  Happy Number
+###  [Happy Number](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-happyNumber.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-happyNumber_test.go)
 ```
 Write an algorithm to determine if a number n is "happy".
 A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers.
@@ -30,7 +30,7 @@ Explanation:
 12 + 02 + 02 = 1
 ```
 
-###  Maximum Subarray
+###  [Maximum Subarray](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-maximumSubarray.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-maximumSubarray_test.go)
 ```
 Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 Example:
@@ -42,7 +42,7 @@ If you have figured out the O(n) solution, try coding another solution using the
 
 ```
 
-###  Move Zeroes
+###  [Move Zeroes](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-moveZeroes.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-moveZeroes_test.go)
 ```
 Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 Example:
@@ -57,7 +57,7 @@ In-place means we should not be allocating any space for extra array. But we are
 A two-pointer approach could be helpful here. The idea would be to have one pointer for iterating the array and another pointer that just works on the non-zero elements of the array.
 ```
 
-###  Best Time to Buy and Sell Stock II
+###  [Best Time to Buy and Sell Stock II](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-bestTimetoBuyandSellStockII.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-bestTimetoBuyandSellStockII_test.go)
 ```
 Say you have an array prices for which the ith element is the price of a given stock on day i.
 Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
@@ -82,7 +82,7 @@ Constraints:
 0 <= prices[i] <= 10 ^ 4
 ```
 
-###  Group Anagrams
+###  [Group Anagrams](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-groupAnagrams.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-groupAnagrams_test.go)
 ```
 Given an array of strings, group anagrams together.
 Example:
@@ -98,7 +98,7 @@ All inputs will be in lowercase.
 The order of your output does not matter.
 ```
 
-###  Counting Elements
+###  [Counting Elements](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-countingElements.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-countingElements_test.go)
 ```
 Given an integer array arr, count element x such that x + 1 is also in arr.
 If there're duplicates in arr, count them seperately.
