@@ -214,3 +214,60 @@ Given a binary tree
 Return 3, which is the length of the path [4,2,1,3] or [5,2,1,3].
 Note: The length of path between two nodes is represented by the number of edges between them.
 ```
+
+###  [Last Stone Weight](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-lastStoneWeight.go)
+```
+We have a collection of stones, each stone has a positive integer weight.
+Each turn, we choose the two heaviest stones and smash them together.  Suppose the stones have weights x and y with x <= y.  The result of this smash is:
+If x == y, both stones are totally destroyed;
+If x != y, the stone of weight x is totally destroyed, and the stone of weight y has new weight y-x.
+At the end, there is at most 1 stone left.  Return the weight of this stone (or 0 if there are no stones left.)
+Example 1:
+Input: [2,7,4,1,8,1]
+Output: 1
+Explanation:
+We combine 7 and 8 to get 1 so the array converts to [2,4,1,1,1] then,
+we combine 2 and 4 to get 2 so the array converts to [2,1,1,1] then,
+we combine 2 and 1 to get 1 so the array converts to [1,1,1] then,
+we combine 1 and 1 to get 0 so the array converts to [1] then that's the value of last stone.
+Note:
+1 <= stones.length <= 30
+1 <= stones[i] <= 1000
+   Hide Hint #1
+Simulate the process. We can do it with a heap, or by sorting some list of stones every time we take a turn.
+```
+
+
+## Week 3: Week 3: April 15th–April 21st
+###  [Leftmost Column with at Least a One](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-leftmostColumnwithatLeastaOne.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-leftmostColumnwithatLeastaOne_test.go)
+```
+(This problem is an interactive problem.)
+A binary matrix means that all elements are 0 or 1. For each individual row of the matrix, this row is sorted in non-decreasing order.
+Given a row-sorted binary matrix binaryMatrix, return leftmost column index(0-indexed) with at least a 1 in it. If such index doesn't exist, return -1.
+You can't access the Binary Matrix directly.  You may only access the matrix using a BinaryMatrix interface:
+BinaryMatrix.get(x, y) returns the element of the matrix at index (x, y) (0-indexed).
+BinaryMatrix.dimensions() returns a list of 2 elements [n, m], which means the matrix is n * m.
+Submissions making more than 1000 calls to BinaryMatrix.get will be judged Wrong Answer.  Also, any solutions that attempt to circumvent the judge will result in disqualification.
+For custom testing purposes you're given the binary matrix mat as input in the following four examples. You will not have access the binary matrix directly.
+Example 1:
+Input: mat = [[0,0],[1,1]]
+Output: 0
+Example 2:
+Input: mat = [[0,0],[0,1]]
+Output: 1
+Example 3:
+Input: mat = [[0,0],[0,0]]
+Output: -1
+Example 4:
+Input: mat = [[0,0,0,1],[0,0,1,1],[0,1,1,1]]
+Output: 1
+Constraints:
+1 <= mat.length, mat[i].length <= 100
+mat[i][j] is either 0 or 1.
+mat[i] is sorted in a non-decreasing way.
+   Hide Hint #1
+1. (Binary Search) For each row do a binary search to find the leftmost one on that row and update the answer.
+   Hide Hint #2
+2. (Optimal Approach) Imagine there is a pointer p(x, y) starting from top right corner. p can only move left or down. If the value at p is 0, move down. If the value at p is 1, move left. Try to figure out the correctness and time complexity of this algorithm.
+
+```
