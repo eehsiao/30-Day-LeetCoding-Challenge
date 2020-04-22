@@ -19,14 +19,6 @@ type TreeNode struct {
 	Right *TreeNode
 }
 
-func max(a, b int) int {
-	if a > b {
-		return a
-	} else {
-		return b
-	}
-}
-
 func depth(node *TreeNode, ans *int) int {
 	if node == nil {
 		return 0

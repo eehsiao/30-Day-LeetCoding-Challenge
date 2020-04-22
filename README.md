@@ -237,6 +237,19 @@ Note:
 Simulate the process. We can do it with a heap, or by sorting some list of stones every time we take a turn.
 ```
 
+###  [Contiguous Array](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-contiguousArray.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-contiguousArray_test.go)
+```
+Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
+Example 1:
+Input: [0,1]
+Output: 2
+Explanation: [0, 1] is the longest contiguous subarray with equal number of 0 and 1.
+Example 2:
+Input: [0,1,0]
+Output: 2
+Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.
+Note: The length of the given binary array will not exceed 50,000.
+```
 
 ## Week 3: Week 3: April 15th–April 21st
 ###  [Leftmost Column with at Least a One](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-leftmostColumnwithatLeastaOne.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-leftmostColumnwithatLeastaOne_test.go)
