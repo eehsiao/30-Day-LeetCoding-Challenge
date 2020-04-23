@@ -252,7 +252,7 @@ Note: The length of the given binary array will not exceed 50,000.
 ```
 
 ## Week 3: Week 3: April 15th–April 21st
-###  [Leftmost Column with at Least a One](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-leftmostColumnwithatLeastaOne.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-leftmostColumnwithatLeastaOne_test.go)
+###  [Leftmost Column with at Least a One](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-leftmostColumnwithatLeastaOne.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-leftmostColumnwithatLeastaOne_test.go)
 ```
 (This problem is an interactive problem.)
 A binary matrix means that all elements are 0 or 1. For each individual row of the matrix, this row is sorted in non-decreasing order.
@@ -283,4 +283,25 @@ mat[i] is sorted in a non-decreasing way.
    Hide Hint #2
 2. (Optimal Approach) Imagine there is a pointer p(x, y) starting from top right corner. p can only move left or down. If the value at p is 0, move down. If the value at p is 1, move left. Try to figure out the correctness and time complexity of this algorithm.
 
+```
+
+## Week 4: April 22nd–April 28th
+###  [Subarray Sum Equals K](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-subarraySumEqualsK.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-subarraySumEqualsK_test.go)
+```
+Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
+Example 1:
+Input:nums = [1,1,1], k = 2
+Output: 2
+Note:
+The length of the array is in range [1, 20,000].
+The range of numbers in the array is [-1000, 1000] and the range of the integer k is [-1e7, 1e7].
+   Hide Hint #1  
+Will Brute force work here? Try to optimize it.
+   Hide Hint #2  
+Can we optimize it by using some extra space?
+   Hide Hint #3  
+What about storing sum frequencies in a hash table? Will it be useful?
+   Hide Hint #4  
+sum(i,j)=sum(0,j)-sum(0,i), where sum(i,j) represents the sum of all the elements from index i to j-1. Can we use this property to optimize it.
+https://leetcode.com/problems/subarray-sum-equals-k/solution/
 ```
