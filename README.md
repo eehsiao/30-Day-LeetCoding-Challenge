@@ -342,6 +342,19 @@ sum(i,j)=sum(0,j)-sum(0,i), where sum(i,j) represents the sum of all the element
 https://leetcode.com/problems/subarray-sum-equals-k/solution/
 ```
 
+###  [Product of Array Except Self](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-productofArrayExceptSelf.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-productofArrayExceptSelf_test.go)
+```
+Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+Example:
+Input:  [1,2,3,4]
+Output: [24,12,8,6]
+Constraint: It's guaranteed that the product of the elements of any prefix or suffix of the array (including the whole array) fits in a 32 bit integer.
+Note: Please solve it without division and in O(n).
+Follow up:
+Could you solve it with constant space complexity? (The output array does not count as extra space for the purpose of space complexity analysis.)
+
+```
+
 ###  [Subarray Sum Equals K](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-bitwiseANDofNumbersRange.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-bitwiseANDofNumbersRange_test.go)
 ```
 Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.
