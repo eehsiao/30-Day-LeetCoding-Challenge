@@ -305,3 +305,14 @@ What about storing sum frequencies in a hash table? Will it be useful?
 sum(i,j)=sum(0,j)-sum(0,i), where sum(i,j) represents the sum of all the elements from index i to j-1. Can we use this property to optimize it.
 https://leetcode.com/problems/subarray-sum-equals-k/solution/
 ```
+
+###  [Subarray Sum Equals K](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-bitwiseANDofNumbersRange.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-bitwiseANDofNumbersRange_test.go)
+```
+Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.
+Example 1:
+Input: [5,7]
+Output: 4
+Example 2:
+Input: [0,1]
+Output: 0
+```
