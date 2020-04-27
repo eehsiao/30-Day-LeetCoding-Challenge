@@ -342,6 +342,26 @@ Note:
 The string size will be in the range [1, 100].
 ```
 
+## Week 3: Week 3: April 15th–April 21st
+###  [Number of Islands](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-numberofIslands.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-numberofIslands_test.go)
+```
+Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+Example 1:
+Input:
+11110
+11010
+11000
+00000
+Output: 1
+Example 2:
+Input:
+11000
+11000
+00100
+00011
+Output: 3
+```
+
 ## Week 4: April 22nd–April 28th
 ###  [Subarray Sum Equals K](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-subarraySumEqualsK.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-subarraySumEqualsK_test.go)
 ```
