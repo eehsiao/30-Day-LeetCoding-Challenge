@@ -318,7 +318,28 @@ mat[i] is sorted in a non-decreasing way.
 1. (Binary Search) For each row do a binary search to find the leftmost one on that row and update the answer.
    Hide Hint #2
 2. (Optimal Approach) Imagine there is a pointer p(x, y) starting from top right corner. p can only move left or down. If the value at p is 0, move down. If the value at p is 1, move left. Try to figure out the correctness and time complexity of this algorithm.
+```
 
+## Week 3: Week 3: April 15th–April 21st
+###  [Valid Parenthesis String](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-validParenthesisString.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-validParenthesisString_test.go)
+```
+Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:
+Any left parenthesis '(' must have a corresponding right parenthesis ')'.
+Any right parenthesis ')' must have a corresponding left parenthesis '('.
+Left parenthesis '(' must go before the corresponding right parenthesis ')'.
+'*' could be treated as a single right parenthesis ')' or a single left parenthesis '(' or an empty string.
+An empty string is also valid.
+Example 1:
+Input: "()"
+Output: True
+Example 2:
+Input: "(*)"
+Output: True
+Example 3:
+Input: "(*))"
+Output: True
+Note:
+The string size will be in the range [1, 100].
 ```
 
 ## Week 4: April 22nd–April 28th
