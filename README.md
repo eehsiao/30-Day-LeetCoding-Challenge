@@ -320,7 +320,6 @@ mat[i] is sorted in a non-decreasing way.
 2. (Optimal Approach) Imagine there is a pointer p(x, y) starting from top right corner. p can only move left or down. If the value at p is 0, move down. If the value at p is 1, move left. Try to figure out the correctness and time complexity of this algorithm.
 ```
 
-## Week 3: Week 3: April 15th–April 21st
 ###  [Valid Parenthesis String](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-validParenthesisString.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-validParenthesisString_test.go)
 ```
 Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:
@@ -342,7 +341,6 @@ Note:
 The string size will be in the range [1, 100].
 ```
 
-## Week 3: Week 3: April 15th–April 21st
 ###  [Number of Islands](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-numberofIslands.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-numberofIslands_test.go)
 ```
 Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
@@ -362,8 +360,7 @@ Input:
 Output: 3
 ```
 
-## Week 3: Week 3: April 15th–April 21st
-###  [Number of Islands](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-minimumPathSum.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-minimumPathSum_test.go)
+###  [Minimum Path Sum](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-minimumPathSum.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-minimumPathSum_test.go)
 ```
 Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
 Note: You can only move either down or right at any point in time.
@@ -376,6 +373,21 @@ Input:
 ]
 Output: 7
 Explanation: Because the path 1→3→1→1→1 minimizes the sum.
+```
+
+###  [Searchin Rotated Sorted Array](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-searchinRotatedSortedArray.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-searchinRotatedSortedArray_test.go)
+```
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
+(i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).
+You are given a target value to search. If found in the array return its index, otherwise return -1.
+You may assume no duplicate exists in the array.
+Your algorithm's runtime complexity must be in the order of O(log n).
+Example 1:
+Input: nums = [4,5,6,7,0,1,2], target = 0
+Output: 4
+Example 2:
+Input: nums = [4,5,6,7,0,1,2], target = 3
+Output: -1
 ```
 
 ## Week 4: April 22nd–April 28th
