@@ -2,7 +2,7 @@
 30-Day LeetCoding Challenge
 
 ## Week 1: April 1st–April 7th
-###  [Single Number](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber_test.go)
+###  [Single Number](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber_test.go)
 ```
 Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 Note:
@@ -15,7 +15,7 @@ Input: [4,1,2,1,2]
 Output: 4
 ```
 
-###  [Happy Number](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-happyNumber.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-happyNumber_test.go)
+###  [Happy Number](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-happyNumber.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-happyNumber_test.go)
 ```
 Write an algorithm to determine if a number n is "happy".
 A happy number is a number defined by the following process: Starting with any positive integer, replace the number by the sum of the squares of its digits, and repeat the process until the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not include 1. Those numbers for which this process ends in 1 are happy numbers.
@@ -30,7 +30,7 @@ Explanation:
 12 + 02 + 02 = 1
 ```
 
-###  [Maximum Subarray](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-maximumSubarray.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-maximumSubarray_test.go)
+###  [Maximum Subarray](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-maximumSubarray.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-maximumSubarray_test.go)
 ```
 Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
 Example:
@@ -42,7 +42,7 @@ If you have figured out the O(n) solution, try coding another solution using the
 
 ```
 
-###  [Move Zeroes](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-moveZeroes.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-moveZeroes_test.go)
+###  [Move Zeroes](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-moveZeroes.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-moveZeroes_test.go)
 ```
 Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 Example:
@@ -57,7 +57,7 @@ In-place means we should not be allocating any space for extra array. But we are
 A two-pointer approach could be helpful here. The idea would be to have one pointer for iterating the array and another pointer that just works on the non-zero elements of the array.
 ```
 
-###  [Best Time to Buy and Sell Stock II](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-bestTimetoBuyandSellStockII.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-bestTimetoBuyandSellStockII_test.go)
+###  [Best Time to Buy and Sell Stock II](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-bestTimetoBuyandSellStockII.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-bestTimetoBuyandSellStockII_test.go)
 ```
 Say you have an array prices for which the ith element is the price of a given stock on day i.
 Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
@@ -82,7 +82,7 @@ Constraints:
 0 <= prices[i] <= 10 ^ 4
 ```
 
-###  [Group Anagrams](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-groupAnagrams.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-groupAnagrams_test.go)
+###  [Group Anagrams](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-groupAnagrams.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-groupAnagrams_test.go)
 ```
 Given an array of strings, group anagrams together.
 Example:
@@ -98,7 +98,7 @@ All inputs will be in lowercase.
 The order of your output does not matter.
 ```
 
-###  [Counting Elements](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-countingElements.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-countingElements_test.go)
+###  [Counting Elements](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-countingElements.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-countingElements_test.go)
 ```
 Given an integer array arr, count element x such that x + 1 is also in arr.
 If there're duplicates in arr, count them seperately.
@@ -125,7 +125,7 @@ Constraints:
 
 
 ## Week 2: Week 2: April 8th–April 14th
-###  [Middle of the Linked List](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-middleoftheLinkedList.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-middleoftheLinkedList_test.go)
+###  [Middle of the Linked List](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-middleoftheLinkedList.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-middleoftheLinkedList_test.go)
 ```
 Given a non-empty, singly linked list with head node head, return a middle node of linked list.
 If there are two middle nodes, return the second middle node.
@@ -143,7 +143,7 @@ Note:
 The number of nodes in the given list will be between 1 and 100.
 ```
 
-###  [Backspace String Compare](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-backspaceStringCompare.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-backspaceStringCompare_test.go)
+###  [Backspace String Compare](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-backspaceStringCompare.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-backspaceStringCompare_test.go)
 ```
 Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
 Note that after backspacing an empty text, the text will continue empty.
@@ -237,7 +237,7 @@ Note:
 Simulate the process. We can do it with a heap, or by sorting some list of stones every time we take a turn.
 ```
 
-###  [Contiguous Array](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-contiguousArray.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-contiguousArray_test.go)
+###  [Contiguous Array](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-contiguousArray.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-contiguousArray_test.go)
 ```
 Given a binary array, find the maximum length of a contiguous subarray with equal number of 0 and 1.
 Example 1:
@@ -251,7 +251,7 @@ Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal numb
 Note: The length of the given binary array will not exceed 50,000.
 ```
 
-###  [Perform String Shifts](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-performStringShifts.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-performStringShifts_test.go)
+###  [Perform String Shifts](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-performStringShifts.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-performStringShifts_test.go)
 ```
 You are given a string s containing lowercase English letters, and a matrix shift, where shift[i] = [direction, amount]:
 direction can be 0 (for left shift) or 1 (for right shift).
@@ -288,7 +288,7 @@ You may notice that left shift cancels the right shift, so count the total left 
 ```
 
 ## Week 3: Week 3: April 15th–April 21st
-###  [Leftmost Column with at Least a One](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-leftmostColumnwithatLeastaOne.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-leftmostColumnwithatLeastaOne_test.go)
+###  [Leftmost Column with at Least a One](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-leftmostColumnwithatLeastaOne.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-leftmostColumnwithatLeastaOne_test.go)
 ```
 (This problem is an interactive problem.)
 A binary matrix means that all elements are 0 or 1. For each individual row of the matrix, this row is sorted in non-decreasing order.
@@ -321,7 +321,7 @@ mat[i] is sorted in a non-decreasing way.
 ```
 
 ## Week 3: Week 3: April 15th–April 21st
-###  [Valid Parenthesis String](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-validParenthesisString.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-validParenthesisString_test.go)
+###  [Valid Parenthesis String](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-validParenthesisString.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-validParenthesisString_test.go)
 ```
 Given a string containing only three types of characters: '(', ')' and '*', write a function to check whether this string is valid. We define the validity of a string by these rules:
 Any left parenthesis '(' must have a corresponding right parenthesis ')'.
@@ -343,7 +343,7 @@ The string size will be in the range [1, 100].
 ```
 
 ## Week 3: Week 3: April 15th–April 21st
-###  [Number of Islands](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-numberofIslands.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-numberofIslands_test.go)
+###  [Number of Islands](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-numberofIslands.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-numberofIslands_test.go)
 ```
 Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 Example 1:
@@ -363,7 +363,7 @@ Output: 3
 ```
 
 ## Week 3: Week 3: April 15th–April 21st
-###  [Number of Islands](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-minimumPathSum.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-minimumPathSum_test.go)
+###  [Number of Islands](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-minimumPathSum.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-minimumPathSum_test.go)
 ```
 Given a m x n grid filled with non-negative numbers, find a path from top left to bottom right which minimizes the sum of all numbers along its path.
 Note: You can only move either down or right at any point in time.
@@ -379,7 +379,7 @@ Explanation: Because the path 1→3→1→1→1 minimizes the sum.
 ```
 
 ## Week 4: April 22nd–April 28th
-###  [Subarray Sum Equals K](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-subarraySumEqualsK.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-subarraySumEqualsK_test.go)
+###  [Subarray Sum Equals K](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-subarraySumEqualsK.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-subarraySumEqualsK_test.go)
 ```
 Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
 Example 1:
@@ -399,7 +399,7 @@ sum(i,j)=sum(0,j)-sum(0,i), where sum(i,j) represents the sum of all the element
 https://leetcode.com/problems/subarray-sum-equals-k/solution/
 ```
 
-###  [Product of Array Except Self](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-productofArrayExceptSelf.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-productofArrayExceptSelf_test.go)
+###  [Product of Array Except Self](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-productofArrayExceptSelf.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week3-productofArrayExceptSelf_test.go)
 ```
 Given an array nums of n integers where n > 1,  return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
 Example:
@@ -412,7 +412,7 @@ Could you solve it with constant space complexity? (The output array does not co
 
 ```
 
-###  [Subarray Sum Equals K](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-bitwiseANDofNumbersRange.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-bitwiseANDofNumbersRange_test.go)
+###  [Subarray Sum Equals K](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-bitwiseANDofNumbersRange.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-bitwiseANDofNumbersRange_test.go)
 ```
 Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.
 Example 1:
@@ -457,7 +457,7 @@ fmt.Println(cache.Get(3)) // returns 3
 fmt.Println(cache.Get(4)) // returns 4
 ```
 
-###  [Jump Game](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-jumpGame.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-jumpGame_test.go)
+###  [Jump Game](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-jumpGame.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-jumpGame_test.go)
 ```
 Given an array of non-negative integers, you are initially positioned at the first index of the array.
 Each element in the array represents your maximum jump length at that position.
@@ -473,7 +473,7 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum
              jump length is 0, which makes it impossible to reach the last index.
 ```
 
-###  [Maximal Square](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-maximalSquare.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-maximalSquare_test.go)
+###  [Maximal Square](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-maximalSquare.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-maximalSquare_test.go)
 ```
 Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 Example:
