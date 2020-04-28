@@ -457,7 +457,7 @@ fmt.Println(cache.Get(3)) // returns 3
 fmt.Println(cache.Get(4)) // returns 4
 ```
 
-###  [Jump Game](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-week4-jumpGame.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-week4-jumpGame_test.go)
+###  [Jump Game](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-jumpGame.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-jumpGame_test.go)
 ```
 Given an array of non-negative integers, you are initially positioned at the first index of the array.
 Each element in the array represents your maximum jump length at that position.
@@ -471,4 +471,16 @@ Input: [3,2,1,0,4]
 Output: false
 Explanation: You will always arrive at index 3 no matter what. Its maximum
              jump length is 0, which makes it impossible to reach the last index.
+```
+
+###  [Maximal Square](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-maximalSquare.go) [(unit test case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week4-maximalSquare_test.go)
+```
+Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
+Example:
+Input:
+1 0 1 0 0
+1 0 1 1 1
+1 1 1 1 1
+1 0 0 1 0
+Output: 4
 ```
