@@ -41,7 +41,8 @@ func retriveMax(node *TreeNode) int {
 }
 
 func maxPathSum(root *TreeNode) int {
-	maxValue = -(int(^uint(0) >> 1)) - 1
+	// maxValue = -(int(^uint(0) >> 1)) - 1
+	maxValue = root.Val
 	retriveMax(root)
 
 	return maxValue
