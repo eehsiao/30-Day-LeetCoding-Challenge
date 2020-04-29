@@ -1,5 +1,6 @@
 # 30-Day-LeetCoding-Challenge
-[30-Day LeetCoding Challenge](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/)
+[Challenge site](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/)
+
 [My leetcode](https://leetcode.com/eehsiao/)
 
 ## Week 1: April 1st–April 7th
