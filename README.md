@@ -1,5 +1,6 @@
 # 30-Day-LeetCoding-Challenge
-30-Day LeetCoding Challenge
+[30-Day LeetCoding Challenge](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/)
+[My leetcode](https://leetcode.com/eehsiao/)
 
 ## Week 1: April 1st–April 7th
 ###  [Single Number](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber_test.go)
