@@ -201,7 +201,7 @@ Methods pop, top and getMin operations will always be called on non-empty stacks
 Consider each node in the stack having a minimum value. (Credits to @aakarshmadhavan)
 ```
 
-###  [Diameter of Binary Tree](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-diameterofBinaryTree.go) (Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-diameterofBinaryTree_test.go)
+###  [Diameter of Binary Tree](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-diameterofBinaryTree.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week2-diameterofBinaryTree_test.go)
 ```
 Diameter of Binary Tree
 Solution
