@@ -23,17 +23,6 @@ package main
 
 var order []int
 
-func preOrder(node *TreeNode) {
-
-	if node.Left != nil {
-		preOrder(node.Left)
-	}
-	order = append(order, node.Val)
-	if node.Right != nil {
-		preOrder(node.Right)
-	}
-}
-
 func bstFromPreorder(preorder []int) *TreeNode {
 	var bTree *TreeNode
 
