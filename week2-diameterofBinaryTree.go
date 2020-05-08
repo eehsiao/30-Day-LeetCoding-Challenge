@@ -13,12 +13,6 @@
 
 package main
 
-type TreeNode struct {
-	Val   int
-	Left  *TreeNode
-	Right *TreeNode
-}
-
 func depth(node *TreeNode, ans *int) int {
 	if node == nil {
 		return 0
