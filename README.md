@@ -1,7 +1,14 @@
-# 30-Day-LeetCoding-Challenge
+# 30-Day-LeetCoding-Challenge (2020-04-01 ~ 2020-04-30)
 [Challenge site](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/)
+[github](https://github.com/eehsiao/30-Day-LeetCoding-Challenge)
+
+# 2020-May-LeetCoding-Challenge (2020-05-01 ~ 2020-05-31)
+[Challenge site](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/)
+[github](https://github.com/eehsiao/2020-May-LeetCoding-Challenge)
 
 [My leetcode](https://leetcode.com/eehsiao/)
+
+
 
 ## Week 1: April 1st–April 7th
 ###  [Single Number](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber.go) [(Test Case)](https://github.com/eehsiao/30-Day-LeetCoding-Challenge/blob/master/week1-singleNumber_test.go)
