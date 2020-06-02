@@ -2,12 +2,17 @@
 [Challenge site](https://leetcode.com/explore/featured/card/30-day-leetcoding-challenge/)
 [github](https://github.com/eehsiao/30-Day-LeetCoding-Challenge)
 
-# 2020-May-LeetCoding-Challenge (2020-05-01 ~ 2020-05-31)
-[Challenge site](https://leetcode.com/explore/featured/card/may-leetcoding-challenge/534/week-1-may-1st-may-7th/)
-[github](https://github.com/eehsiao/2020-May-LeetCoding-Challenge)
-
 [My leetcode](https://leetcode.com/eehsiao/)
 
+# 2020-May-LeetCoding-Challenge
+[Challenge site](https://leetcode.com/explore/challenge/card/may-leetcoding-challenge/)
+
+[github](https://github.com/eehsiao/LeetCoding-Challenge/tree/master/May2020)
+
+# 2020-June-LeetCoding-Challenge
+[Challenge site](https://leetcode.com/explore/challenge/card/june-leetcoding-challenge/)
+
+[github](https://github.com/eehsiao/LeetCoding-Challenge/tree/master/June2020)
 
 
 ## Week 1: April 1st–April 7th
